@@ -1,0 +1,35 @@
+@media only screen and (max-width:1180px){
+    ul li a
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1292px){
+    .prev,.next,.forward,.backward{
+        
+      
+        
+    }
+
+    .next,.forward
+    {
+	right: 60px;
+    }
+
+    .forward,.backward
+    {
+       
+        
+    }
+}
+
+@media only screen and (max-width:766px){
+    .prev,.next,.forward,.backward{
+        display: none;
+    }
+    .fading {
+      
+      padding: 0 10px 0 10px;
+    }
+}

@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+@font-face {
+	font-family: "Pacifico";
+	font-style: normal;
+	font-weight: 400;
+	src:url('../fonts/Pacifico/Pacifico.woff') format ('woff'), url('../fonts/Pacifico/Pacifico.woff2') format ('woff2');
+}
+
+
+* {
+	margin: 0
+	padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+	padding:0px 0 0 30px;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	top: 0px;
+	float: left;
+}
+
+nav {
+	top: 0;
+}
+.logo {
+	font-family: "Pacifico";
+	font-weight: bold;
+	font-size: 40px;
+ 	padding: 40px 0 0 0px;
+ 	margin-left: 0px;
+ 	background-color: #9c27b0;
+    text-align: center;
+}
+.smaller-logo {
+	font-size: 18px;
+	text-align: center;
+	background-color: #ffffff;
+	position: relative;
+	font-family: "The Girl Next Door";
+	padding: 15px;
+	font-weight: bold;
+}
+.logo a {
+	color: #ffffff;
+}
+.store-div-1 {
+	background-color: #9c27b0;
+	border-bottom: 3px solid  #fff;
+	top: 0;
+}
+
+header {
+	width: 100% ! important;
+	height: 70px;
+	line-height: 50px;
+}
+ul li a {
+	color: #ffffff;
+	font-size: 14px;
+	display: ;
+	font-weight: bold;
+}
+
+.store-header {
+    margin: 0 auto;
+    position: relative;
+    max-width: 75%;
+    padding-bottom: 20px;
+}
+
+.store-intro {
+	text-align: center;
+	margin-top: 50px;
+	background-color: #ffffff;   
+}
+
+.visit-gal,.cat-button, .blog-sign, .new-button , .cat-button-section {
+	border: 0;
+	background-color: #9c27b0;
+	color: #ffffff;
+	padding: 10px 30px 10px 30px;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+
+.cat-button-section {
+	margin-top: 30px;
+	padding: 10px;
+	width: 25%;
+}
+
+.image-1 {
+	position: relative;
+	margin: 0px auto;
+    text-align: center;
+    width: 600px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.home-image {
+	width: 100%;
+	height: 100%;
+}
+
+.des-img {
+	width: 100%;
+    height: 100%;
+}
+
+.cat-sample, .gal-sample, .new-sample {
+	text-align: center;
+	margin-top: 70px;
+	color: #9c9aa1;
+}
+
+.heading-4 {
+	font-size: 26px;
+}
+
+.slider-1-section, .slider-2-section {
+	margin-top: 100px;
+	height: ;
+	position: ;
+	background-color: #ffffff;
+}
+
+.prev,.next,.forward,.backward {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	top: 310%;
+	width: auto;
+	transition: 0.5s ease-in;
+}
+
+.next,.forward {
+	right: 60px;
+}
+
+.forward,.backward {
+	top: 0;
+	top: 540%;
+}
+/* Fading animation */
+.fading {
+  -webkit-animation-name: fading;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fading;
+  animation-duration: 1.5s;
+  padding: 0 80px 0 80px;
+}
+
+@-webkit-keyframes fading {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fading {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.description,.description-1 {
+	color: #9c9aa1;
+}
+
+.some-quotes-section {
+	background-color: #34313f;
+}
+
+.quotes {
+	background-color: #34313f;
+	color:  #ffffff;
+	padding: 40px;
+	font-size: 18px;
+}
+
+.description-1,.gal-description, .cat-description {
+	text-align: center;
+	padding: 0 100px 0 100px;
+}
+
+.gallery-section,.some-quotes,.features-section, .category-section {
+	margin-top: 70px;
+}
+
+.category-section {
+	text-align:center; 	
+}
+
+.category {
+	padding-bottom: 100px;
+	background-color: #ffffff;
+}
+.features-section {
+	background-color: #34313f;
+}
+
+.features {
+	padding: 50px;
+	color: #ffffff;
+}
+
+.heading {
+	text-align: center;
+	padding-top: 60px;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	display: inline-block;
+	background-color: #ffffff;
+}
+
+.footer-1-section {
+	margin-top: 50px;
+	padding: 10px 0px 10px 0px;
+}
+
+.footer-1-section {
+	background-color: #34313f;
+	padding: 50px 30px 30px 30px;
+	
+}
+.footer-text {
+	color: #9c9aa1;
+	padding: 10px;
+}
+
+.headings-footer {
+ color: #ffffff;
+}
+
+.footer-2-section {
+	background-color: #808080;
+	color: #ffffff;
+	padding: 50px 50px 50px 0px;
+	border-top:1px solid #ffffff;
+
+}
+
+.foot-span {
+	border: 1px solid #ffffff;
+	display: inline-block;
+	width: 40px;
+	margin: 0px auto;
+}
+
+.tags {
+	border: 1px solid #ffffff;
+	background: 0;
+	color: #ffffff;
+	padding: 3px 5px 3px 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.blog-email {
+	border-radius: 50px;
+	border: 0;
+	background-color: #ffffff;
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+	color: #808080;
+    opacity: .7;
+    height: 45px
+}
+
+input [value="user email required"] {
+    padding: 50px;
+}
+
+.blog-sign {
+	padding: 7px 30px 7px 30px;
+	margin-top: 10px;
+}
+
+.footer-section-3, .copyright {
+	text-align: center;
+	background-color: #34313f;
+	color: #ffffff;
+}
+
+.footer-section-3 {
+	border-top: 1px solid #e8e8e8;
+	padding: 10px;
+}
+
+.separator {
+	width: 700px;
+	border-bottom: 1px solid #808080;
+	margin: 40px auto;
+	display: block;
+	padding: 1;
+	opacity: .2;
+}
+
+.black-text {
+	float: right;
+}
+
+.centered-form {
+	margin: 40px auto;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.borders {
+	border: 1px solid #E8E8E8;
+	opacity: .9;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.labels {
+	padding-top: 10px;
+}
+
+.sign-head, .login-head {
+    text-align: center;
+    opacity: .8;
+}
+.submit-but {
+	padding-top: 25px;
+}
+
+.conditions {
+	color: #000000;
+	opacity: .8;
+	font-size: 12px;
+	text-align: center;
+}
+
+.blue {
+	color: #4b71fc;
+}
+
+.marges {
+	margin: 20px 0 30px 0;
+}
+
+.sub-but {
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+.sub-but:hover {
+	background-color: #ED3F72;
+	color: #ffffff;
+	transition: all ease-in-out .5s;
+	opacity: .7;
+}
+
+.blog-logo, .about-logo
+{
+    text-align: center;
+    color: #4b71fc;
+    position: relative;
+    margin: 0 auto;
+    font-family: "The Girl Next Door";
+}
+
+.blog-head, .other-head, .about-head, .company-head, .what-head, .team-head {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 auto;
+    color: #9c27b0; 
+    font-family: "Pacifico"
+}
+
+.center {
+    text-align: center;
+    padding: 50px;
+}
+
+.blog-size, .about-size {
+  
+    position: relative;
+}
+
+.img-blog, .img-about {
+    width: 100%;
+    height: 100%;
+}
+
+.side-nav {
+    margin: 300px 0 100px 0; 
+}
+
+.side-nav:first-child {
+    margin-top: 0;
+}
+
+.side-list {
+    text-align: right;
+    padding-top: 50px;
+}
+
+ span a
+{
+    margin-top: 200px;
+}
+
+.blog-author {
+    text-align: right;
+    color: #4b71fc;
+    font-weight: bold;
+    font-size: 20px;
+}
+p.blog-author {
+    color: #000000;
+    font-size: 16px;
+    opacity: .6;
+}
+
+.blog-title, .about-title {
+    text-align: left;
+    text-transform: uppercase;
+    color:  #808080; 
+    padding-bottom: 10px;
+}
+
+.small-title {
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.other-head, .company-head, .what-head, .team-head {
+    padding: 50px 50px 5px 50px;
+    margin: 50px 0 0 0;
+}
+
+.border-round {
+    border-radius: 10%;
+}
+
+.hr-line {
+    text-align: center;
+    width: 10%;
+    background-color: #9c27b0;
+    opacity: 0.5;
+}
+
+.others, .company, .what, .team {
+    padding-bottom: 50px;
+}
+
+.blog-description, .company-description, .what-description, .team-description {
+    font-size: 20px;
+}
+
+.article {
+    padding-bottom: 40px;
+}
+
+.persons {
+    text-align: center;
+    box-shadow: 2px 2px 5px 5px #E4E4E4;
+    padding: 20px;
+    color: #4b71fc;
+    text-transform: uppercase;
+}
+
+.team-section {
+    padding-bottom: 100px
+}
+
+.img-pers {
+    border-radius: 100px;
+}
+
+.per-description {
+    padding-top: 20px;
+}
