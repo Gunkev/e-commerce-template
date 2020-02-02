@@ -1,26 +1,61 @@
-@media only screen and (max-width:1180px){
-    ul li a
-    {
-        display: none;
+@media only screen and (max-width:1199px){
+    .store-div-1 {
+        background-color: #fff;
+    }
+
+    ul li a {
+        color: #9c27b0;
+    }
+
+    .logo {
+        background-color: #fff;
+    }
+
+    .logo a {
+        color: #9c27b0 !important;
     }
 }
 
-@media only screen and (max-width:1292px){
-    .prev,.next,.forward,.backward{
-        
-      
-        
+@media only screen and (max-width:767px){
+    ul li a {
+        color: #9c27b0;
+        font-size: 10px;
+        font-weight: 500;
+
     }
 
-    .next,.forward
-    {
-	right: 60px;
+    .logo a {
+        font-weight: bold;
+        font-size: 20px;
     }
 
-    .forward,.backward
+    ul li {
+        padding:0px 0 0 10px;
+    }
+
+    .blog-head, .other-head, .about-head, .company-head, .what-head, .team-head {
+        font-size: 18px;
+    }
+
+    .visit-gal,.cat-button, .blog-sign, .new-button , .cat-button-section {
+        background-color: #9c27b0;
+        padding: 7px 20px 7px 20px;
+        text-transform: capitalize;
+        font-size: 11px;
+    }
+
+    .image-1 {
+        width: 300px;
+        height: 350px;
+    }
+
+    .slider-1-section, .slider-2-section
     {
-       
-        
+        display: none;
+    }
+
+    .store-intro {
+        margin-top: 80px;
     }
 }
 

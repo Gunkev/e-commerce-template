@@ -7,29 +7,25 @@
 	src:url('../fonts/Pacifico/Pacifico.woff') format ('woff'), url('../fonts/Pacifico/Pacifico.woff2') format ('woff2');
 }
 
-
 * {
 	margin: 0
 	padding: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+    text-align: center;
 }
 
 ul li {
-	padding:0px 0 0 30px;
 	list-style-type: none;
 	display: inline-block;
-	text-align: center;
 	top: 0px;
-	float: left;
 }
 
 nav {
 	top: 0;
 }
+
 .logo {
 	font-family: "Pacifico";
 	font-weight: bold;
@@ -44,7 +40,7 @@ nav {
 	text-align: center;
 	background-color: #ffffff;
 	position: relative;
-	font-family: "The Girl Next Door";
+	font-family: "Pacifico";
 	padding: 15px;
 	font-weight: bold;
 }
@@ -60,12 +56,12 @@ nav {
 header {
 	width: 100% ! important;
 	height: 70px;
+	position: center;
 	line-height: 50px;
 }
 ul li a {
 	color: #ffffff;
 	font-size: 14px;
-	display: ;
 	font-weight: bold;
 }
 
@@ -78,7 +74,7 @@ ul li a {
 
 .store-intro {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 120px;
 	background-color: #ffffff;   
 }
 
