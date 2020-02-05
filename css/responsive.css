@@ -1,3 +1,6 @@
+/*********different css style for different screeens******************/
+
+
 @media only screen and (max-width:1199px){
     .store-div-1 {
         background-color: #fff;
